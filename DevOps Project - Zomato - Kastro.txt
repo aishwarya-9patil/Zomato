@@ -134,7 +134,7 @@ pipeline {
         }
         stage ("Git Checkout") {
             steps {
-                git 'https://github.com/KastroVKiran/Zomato-Project-Kastro.git'
+                git 'https://github.com/aishwarya-9patil/Zomato.git'
             }
         }
         stage("Sonarqube Analysis"){
@@ -219,7 +219,7 @@ pipeline {
                 </body>
                 </html>
             """,
-            to: 'kastrokiran@gmail.com',
+            to: 'aishwarya.mo09@gmail.com',
             mimeType: 'text/html',
             attachmentsPattern: 'trivy.txt'
         }
